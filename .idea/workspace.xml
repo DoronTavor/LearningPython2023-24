@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 7- Dicts and Sets">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 8/lesson_8_loops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 8/rps_lesson_8.py" afterDir="false" />
+    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 8- Loops">
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 9/lesson_9_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Lesson4/lesson_4_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson 4/lesson_4_data_types.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
     "Python.lesson_7_dicts.executor": "Run",
     "Python.lesson_7_sets.executor": "Run",
     "Python.lesson_8_loops.executor": "Run",
+    "Python.lesson_9_functions.executor": "Run",
     "Python.part1.executor": "Run",
     "Python.rps_lesson_8.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -68,30 +69,7 @@
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rps_lesson_8">
-    <configuration name="lesson_6_tuples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Learning2023Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 6/lesson_6_tuples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.lesson_9_functions">
     <configuration name="lesson_7_dicts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learning2023Python" />
       <option name="ENV_FILES" value="" />
@@ -161,6 +139,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lesson_9_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning2023Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 9/lesson_9_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rps_lesson_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learning2023Python" />
       <option name="ENV_FILES" value="" />
@@ -186,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson_9_functions" />
         <item itemvalue="Python.rps_lesson_8" />
         <item itemvalue="Python.lesson_8_loops" />
         <item itemvalue="Python.lesson_7_sets" />
         <item itemvalue="Python.lesson_7_dicts" />
-        <item itemvalue="Python.lesson_6_tuples" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +213,7 @@
       <workItem from="1703173241555" duration="1359000" />
       <workItem from="1703225481270" duration="815000" />
       <workItem from="1703239416725" duration="9176000" />
-      <workItem from="1703327054594" duration="7735000" />
+      <workItem from="1703327054594" duration="9354000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2">
       <option name="closed" value="true" />
@@ -270,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703332825824</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lesson 8- Loops">
+      <option name="closed" value="true" />
+      <created>1703340895020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703340895020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +292,8 @@
     <MESSAGE value="Lesson 5-User Inputs" />
     <MESSAGE value="Lesson 6- Lists and Tuples" />
     <MESSAGE value="Lesson 7- Dicts and Sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7- Dicts and Sets" />
+    <MESSAGE value="Lesson 8- Loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8- Loops" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning2023Python$Lesson3OperatorsExample.coverage" NAME="Lesson3OperatorsExample Coverage Results" MODIFIED="1703243742301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 3" />
@@ -298,6 +308,7 @@
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_6_lists.coverage" NAME="lesson_6_lists Coverage Results" MODIFIED="1703329133119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 6" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_6_tuples.coverage" NAME="lesson_6_tuples Coverage Results" MODIFIED="1703329425666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 6" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson2.coverage" NAME="lesson2 Coverage Results" MODIFIED="1703239905419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 2" />
+    <SUITE FILE_PATH="coverage/Learning2023Python$lesson_9_functions.coverage" NAME="lesson_9_functions Coverage Results" MODIFIED="1703345732231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 9" />
     <SUITE FILE_PATH="coverage/Learning2023Python$rps_lesson_8.coverage" NAME="rps_lesson_8 Coverage Results" MODIFIED="1703340864858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 8" />
   </component>
 </project>
