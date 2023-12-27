@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 13- fstrings">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 14/kansas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 14/lesson_14_modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 14/rps_lesson_14.py" afterDir="false" />
+    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 14- modules">
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 15/hello_person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 15/rps_lesson_15.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,7 @@
   "keyToString": {
     "Python.Lesson3CompareOperators.executor": "Run",
     "Python.Lesson3OperatorsExample.executor": "Run",
+    "Python.hello_person.executor": "Run",
     "Python.lesson2.executor": "Run",
     "Python.lesson3Operators.executor": "Run",
     "Python.lesson_12_closures.executor": "Run",
@@ -63,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/Lessons/Lesson 14",
+    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/Lessons/Lesson 15",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,15 +74,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 15" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 14" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 13" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 12" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 11" />
-      <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lesson_14_modules">
-    <configuration name="lesson_12_closures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hello_person">
+    <configuration name="hello_person" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learning2023Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,12 +91,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 12/lesson_12_closures.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 15/hello_person.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hello_person" />
         <item itemvalue="Python.lesson_14_modules" />
         <item itemvalue="Python.rps_lesson_14" />
         <item itemvalue="Python.lesson_13_fstrings" />
         <item itemvalue="Python.rps_lesson_12" />
-        <item itemvalue="Python.lesson_12_closures" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +226,7 @@
       <workItem from="1703225481270" duration="815000" />
       <workItem from="1703239416725" duration="9176000" />
       <workItem from="1703327054594" duration="12730000" />
-      <workItem from="1703512520164" duration="5056000" />
+      <workItem from="1703512520164" duration="7936000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2">
       <option name="closed" value="true" />
@@ -324,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703515458312</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lesson 14- modules">
+      <option name="closed" value="true" />
+      <created>1703687031155</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703687031155</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +350,8 @@
     <MESSAGE value="Lesson 11- Scopes" />
     <MESSAGE value="Lesson 12- closers" />
     <MESSAGE value="Lesson 13- fstrings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 13- fstrings" />
+    <MESSAGE value="Lesson 14- modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 14- modules" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_12_closures.coverage" NAME="lesson_12_closures Coverage Results" MODIFIED="1703436031139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 12" />
@@ -358,6 +367,7 @@
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson3Operators.coverage" NAME="lesson3Operators Coverage Results" MODIFIED="1703241777243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 3" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_8_loops.coverage" NAME="lesson_8_loops Coverage Results" MODIFIED="1703340440112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 8" />
     <SUITE FILE_PATH="coverage/Learning2023Python$Lesson3CompareOperators.coverage" NAME="Lesson3CompareOperators Coverage Results" MODIFIED="1703243378652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 3" />
+    <SUITE FILE_PATH="coverage/Learning2023Python$hello_person.coverage" NAME="hello_person Coverage Results" MODIFIED="1703688410341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 15" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_13_fstrings.coverage" NAME="lesson_13_fstrings Coverage Results" MODIFIED="1703515212630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 13" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_6_lists.coverage" NAME="lesson_6_lists Coverage Results" MODIFIED="1703329133119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 6" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_6_tuples.coverage" NAME="lesson_6_tuples Coverage Results" MODIFIED="1703329425666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 6" />
