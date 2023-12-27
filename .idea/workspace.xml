@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 14- modules">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 15/hello_person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 15/rps_lesson_15.py" afterDir="false" />
+    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 15- cl arguments">
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 16/arcade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 16/guess_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 16/rps_lesson_16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/Lessons/Lesson 15",
+    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/Lessons/Lesson 16",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 16" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 15" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 14" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 13" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 12" />
-      <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 11" />
     </key>
   </component>
   <component name="RunManager" selected="Python.hello_person">
@@ -226,7 +227,7 @@
       <workItem from="1703225481270" duration="815000" />
       <workItem from="1703239416725" duration="9176000" />
       <workItem from="1703327054594" duration="12730000" />
-      <workItem from="1703512520164" duration="7936000" />
+      <workItem from="1703512520164" duration="9354000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2">
       <option name="closed" value="true" />
@@ -332,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703687031155</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lesson 15- cl arguments">
+      <option name="closed" value="true" />
+      <created>1703690097225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703690097225</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +360,8 @@
     <MESSAGE value="Lesson 12- closers" />
     <MESSAGE value="Lesson 13- fstrings" />
     <MESSAGE value="Lesson 14- modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 14- modules" />
+    <MESSAGE value="Lesson 15- cl arguments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 15- cl arguments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_12_closures.coverage" NAME="lesson_12_closures Coverage Results" MODIFIED="1703436031139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 12" />
