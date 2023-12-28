@@ -43,7 +43,7 @@ class GolfCart(Vehicle):
 airbusA380 = AirPlane("Airbus","A380","388")
 airbusA380.get_make_model()
 airbusA380.moves()
-
+# Creating
 mack =Truck('Mack', 'Pinnacle')
 golf_wagon = GolfCart ('Yamaha', 'GC100')
 mack.get_make_model()

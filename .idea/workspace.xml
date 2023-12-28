@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 17- Lambda and high order functions">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 18/lesson_18_classes.py" afterDir="false" />
+    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 18- Classes and Objects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +23,9 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -35,45 +37,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Lesson3CompareOperators.executor": "Run",
-    "Python.Lesson3OperatorsExample.executor": "Run",
-    "Python.hello_person.executor": "Run",
-    "Python.lesson2.executor": "Run",
-    "Python.lesson3Operators.executor": "Run",
-    "Python.lesson_12_closures.executor": "Run",
-    "Python.lesson_13_fstrings.executor": "Run",
-    "Python.lesson_14_modules.executor": "Run",
-    "Python.lesson_17_high_order_functions.executor": "Run",
-    "Python.lesson_17_lambda.executor": "Run",
-    "Python.lesson_18_classes.executor": "Run",
-    "Python.lesson_4_data_types.executor": "Run",
-    "Python.lesson_5_user_input.executor": "Run",
-    "Python.lesson_6_lists.executor": "Run",
-    "Python.lesson_6_tuples.executor": "Run",
-    "Python.lesson_7_dicts.executor": "Run",
-    "Python.lesson_7_sets.executor": "Run",
-    "Python.lesson_8_loops.executor": "Run",
-    "Python.lesson_9_functions.executor": "Run",
-    "Python.lessson_11_scopes.executor": "Run",
-    "Python.part1.executor": "Run",
-    "Python.rps_lesson_11.executor": "Run",
-    "Python.rps_lesson_12.executor": "Run",
-    "Python.rps_lesson_14.executor": "Run",
-    "Python.rps_lesson_8.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/Lessons/Lesson 16",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Lesson3CompareOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson3OperatorsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_person.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_12_closures.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_13_fstrings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_14_modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_17_high_order_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_17_lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_18_classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_4_data_types.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_5_user_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_6_lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_6_tuples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_7_dicts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_7_sets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_8_loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_9_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lessson_11_scopes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.part1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_8.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tavor/Learning2023Python/Lessons/Lesson 16&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 16" />
@@ -228,7 +230,7 @@
       <workItem from="1703225481270" duration="815000" />
       <workItem from="1703239416725" duration="9176000" />
       <workItem from="1703327054594" duration="12730000" />
-      <workItem from="1703512520164" duration="13273000" />
+      <workItem from="1703512520164" duration="13598000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2">
       <option name="closed" value="true" />
@@ -358,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703765820582</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lesson 18- Classes and Objects">
+      <option name="closed" value="true" />
+      <created>1703767679660</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703767679660</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +390,8 @@
     <MESSAGE value="Lesson 15- cl arguments" />
     <MESSAGE value="Lesson 16- challenges" />
     <MESSAGE value="Lesson 17- Lambda and high order functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 17- Lambda and high order functions" />
+    <MESSAGE value="Lesson 18- Classes and Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 18- Classes and Objects" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_12_closures.coverage" NAME="lesson_12_closures Coverage Results" MODIFIED="1703436031139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 12" />
