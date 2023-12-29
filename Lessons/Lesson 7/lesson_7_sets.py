@@ -22,7 +22,6 @@ print(2 in nums)
 # but you cannot refer to an element in the set with the index position or key
 
 # Add a new element to a set
-
 nums.add(8)
 print(nums)
 
