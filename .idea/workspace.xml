@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 22- file operations">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/static/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/templates/city-not-found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/templates/weather.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 23/weather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Learning2023Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Learning2023Python.iml" afterDir="false" />
+    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="Lesson 23- Final Lesson- Flask web app">
+      <change afterPath="$PROJECT_DIR$/Exercises/From_internet/Ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/Lambda/Exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -44,6 +37,20 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DoronTavor&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8f96d052-f82c-4ef0-805c-5a5869631328" />
+        <option name="url" value="https://github.com/DoronTavor/LearningPython2023-24.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,53 +65,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Lesson3CompareOperators.executor": "Run",
-    "Python.Lesson3OperatorsExample.executor": "Run",
-    "Python.files.executor": "Run",
-    "Python.hello_person.executor": "Run",
-    "Python.lesson2.executor": "Run",
-    "Python.lesson3Operators.executor": "Run",
-    "Python.lesson_12_closures.executor": "Run",
-    "Python.lesson_13_fstrings.executor": "Run",
-    "Python.lesson_14_modules.executor": "Run",
-    "Python.lesson_17_high_order_functions.executor": "Run",
-    "Python.lesson_17_lambda.executor": "Run",
-    "Python.lesson_18_classes.executor": "Run",
-    "Python.lesson_19_exceptions_and_errors.executor": "Run",
-    "Python.lesson_20_oop_project.executor": "Run",
-    "Python.lesson_4_data_types.executor": "Run",
-    "Python.lesson_5_user_input.executor": "Run",
-    "Python.lesson_6_lists.executor": "Run",
-    "Python.lesson_6_tuples.executor": "Run",
-    "Python.lesson_7_dicts.executor": "Run",
-    "Python.lesson_7_sets.executor": "Run",
-    "Python.lesson_8_loops.executor": "Run",
-    "Python.lesson_9_functions.executor": "Run",
-    "Python.lessson_11_scopes.executor": "Run",
-    "Python.part1.executor": "Run",
-    "Python.rps_lesson_11.executor": "Run",
-    "Python.rps_lesson_12.executor": "Run",
-    "Python.rps_lesson_14.executor": "Run",
-    "Python.rps_lesson_8.executor": "Run",
-    "Python.server.executor": "Run",
-    "Python.weather (1).executor": "Run",
-    "Python.weather.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/Lessons/Lesson 16",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exercises.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson3CompareOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lesson3OperatorsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_person.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_12_closures.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_13_fstrings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_14_modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_17_high_order_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_17_lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_18_classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_19_exceptions_and_errors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_20_oop_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_4_data_types.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_5_user_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_6_lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_6_tuples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_7_dicts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_7_sets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_8_loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_9_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lessson_11_scopes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.part1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rps_lesson_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tavor/Learning2023Python/Lessons/Lesson 16&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 16" />
@@ -114,13 +124,14 @@
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tavor\Learning2023Python" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 23\templates" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 23" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 21\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.server">
-    <configuration name="files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Ex1">
+    <configuration name="Ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learning2023Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,12 +140,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises/From_internet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 22/files.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/From_internet/Ex1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_20_oop_project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learning2023Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,12 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises/Lambda" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 20/lesson_20_oop_project.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/Lambda/Exercises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,6 +200,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Learning2023Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Exercises/Lambda" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Exercises/Lambda/task_one.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="weather (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learning2023Python" />
       <option name="ENV_FILES" value="" />
@@ -212,36 +246,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Learning2023Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 21" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 21/weather.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex1" />
+        <item itemvalue="Python.Exercises" />
+        <item itemvalue="Python.task_one" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.weather (1)" />
-        <item itemvalue="Python.files" />
-        <item itemvalue="Python.weather" />
-        <item itemvalue="Python.lesson_20_oop_project" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +275,8 @@
       <workItem from="1703225481270" duration="815000" />
       <workItem from="1703239416725" duration="9176000" />
       <workItem from="1703327054594" duration="12730000" />
-      <workItem from="1703512520164" duration="35414000" />
+      <workItem from="1703512520164" duration="41443000" />
+      <workItem from="1704528488395" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2">
       <option name="closed" value="true" />
@@ -458,7 +470,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703859926655</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Lesson 23- Final Lesson- Flask web app">
+      <option name="closed" value="true" />
+      <created>1703930281944</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1703930281944</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Lesson 23- Final Lesson- Flask web app">
+      <option name="closed" value="true" />
+      <created>1703930319683</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703930319683</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +513,8 @@
     <MESSAGE value="Lesson 20- OOP Project" />
     <MESSAGE value="Lesson 21- Venv and Pip" />
     <MESSAGE value="Lesson 22- file operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 22- file operations" />
+    <MESSAGE value="Lesson 23- Final Lesson- Flask web app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 23- Final Lesson- Flask web app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_12_closures.coverage" NAME="lesson_12_closures Coverage Results" MODIFIED="1703436031139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 12" />
@@ -517,7 +546,10 @@
     <SUITE FILE_PATH="coverage/Learning2023Python$files.coverage" NAME="files Coverage Results" MODIFIED="1703859883031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 22" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_17_high_order_functions.coverage" NAME="lesson_17_high_order_functions Coverage Results" MODIFIED="1703765762121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 17" />
     <SUITE FILE_PATH="coverage/Learning2023Python$hello_person.coverage" NAME="hello_person Coverage Results" MODIFIED="1703688410341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 15" />
+    <SUITE FILE_PATH="coverage/Learning2023Python$Exercises.coverage" NAME="Exercises Coverage Results" MODIFIED="1704183273395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises/Lambda" />
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_6_tuples.coverage" NAME="lesson_6_tuples Coverage Results" MODIFIED="1703329425666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 6" />
+    <SUITE FILE_PATH="coverage/Learning2023Python$task_one.coverage" NAME="task_one Coverage Results" MODIFIED="1704010081896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Exercises/Lambda" />
+    <SUITE FILE_PATH="coverage/Learning2023Python$Ex1.coverage" NAME="Ex1 Coverage Results" MODIFIED="1704196843280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercises/From_internet" />
     <SUITE FILE_PATH="coverage/Learning2023Python$rps_lesson_8.coverage" NAME="rps_lesson_8 Coverage Results" MODIFIED="1703340864858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 8" />
   </component>
 </project>
