@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="OOP Lesson 3- Class Methods and Static Methods">
-      <change afterPath="$PROJECT_DIR$/OOP Tutorial/Part Four/part_four.py" afterDir="false" />
+    <list default="true" id="87fd453a-f741-4516-9f48-95fcc281f255" name="Changes" comment="OOP Lesson 4- Inheritance - Creating Subclasses">
+      <change afterPath="$PROJECT_DIR$/OOP Tutorial/Part Five/part_five.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +93,7 @@
     "Python.lesson_9_functions.executor": "Run",
     "Python.lessson_11_scopes.executor": "Run",
     "Python.part1.executor": "Run",
+    "Python.part_five.executor": "Run",
     "Python.part_four.executor": "Run",
     "Python.part_one.executor": "Run",
     "Python.part_three.executor": "Run",
@@ -108,7 +109,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/OOP Tutorial/Part Four",
+    "last_opened_file_path": "C:/Users/tavor/Learning2023Python/OOP Tutorial/Part Five",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,11 +121,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tavor\Learning2023Python\OOP Tutorial\Part Five" />
       <recent name="C:\Users\tavor\Learning2023Python\OOP Tutorial\Part Four" />
       <recent name="C:\Users\tavor\Learning2023Python\OOP Tutorial\Part Three" />
       <recent name="C:\Users\tavor\Learning2023Python\OOP Tutorial\Part Two" />
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 16" />
-      <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tavor\Learning2023Python" />
@@ -133,8 +134,8 @@
       <recent name="C:\Users\tavor\Learning2023Python\Lessons\Lesson 21\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part_four">
-    <configuration name="files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.part_five">
+    <configuration name="part_five" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learning2023Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lesson 22" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP Tutorial/Part Five" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lesson 22/files.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP Tutorial/Part Five/part_five.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part_five" />
         <item itemvalue="Python.part_four" />
         <item itemvalue="Python.part_three" />
         <item itemvalue="Python.part_two" />
         <item itemvalue="Python.part_one" />
-        <item itemvalue="Python.files" />
       </list>
     </recent_temporary>
   </component>
@@ -516,14 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704696103679</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="OOP Lesson 4- Inheritance - Creating Subclasses">
+      <option name="closed" value="true" />
+      <created>1704698382043</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1704698382043</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson 2" />
     <MESSAGE value="Lesson 3- Operators" />
     <MESSAGE value="Lesson 4- Data types" />
     <MESSAGE value="Lesson 5-User Inputs" />
@@ -548,7 +556,8 @@
     <MESSAGE value="OOP Lesson 1- Classes and instances" />
     <MESSAGE value="OOP Lesson 2- Class Variables" />
     <MESSAGE value="OOP Lesson 3- Class Methods and Static Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP Lesson 3- Class Methods and Static Methods" />
+    <MESSAGE value="OOP Lesson 4- Inheritance - Creating Subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP Lesson 4- Inheritance - Creating Subclasses" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning2023Python$lesson_12_closures.coverage" NAME="lesson_12_closures Coverage Results" MODIFIED="1703436031139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson 12" />
